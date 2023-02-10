@@ -1,0 +1,35 @@
+body {
+  font-family: "Roboto Flex", sans-serif;
+  color: #fff;
+}
+form {
+  text-align: center;
+  margin: 20px;
+}
+
+.temperature {
+  font-size: 45px;
+}
+.celcius {
+  font-size: 45px;
+}
+.today-weather {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.row {
+  margin-top: 35px;
+}
+.text-center {
+  font-size: 20px;
+}
+.weather-app {
+  border: 1px solid #000;
+  max-width: 600px;
+  padding: 15px;
+  margin: 20px auto;
+  background: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+  border-radius: 10px;
+}
