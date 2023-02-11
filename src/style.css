@@ -6,6 +6,9 @@ form {
   text-align: center;
   margin: 20px;
 }
+a {
+  text-decoration: none;
+}
 
 .temperature {
   font-size: 45px;
@@ -32,4 +35,8 @@ form {
   margin: 20px auto;
   background: linear-gradient(to top, #c79081 0%, #dfa579 100%);
   border-radius: 10px;
+}
+.today-weather .active {
+  color: white;
+  text-decoration: none;
 }
