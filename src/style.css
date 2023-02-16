@@ -9,17 +9,22 @@ form {
 a {
   text-decoration: none;
 }
+.container {
+  display: flex;
+  flex-flow: row;
+}
+.current-temp-city {
+  text-align: left;
+}
+.current-weather-details {
+  text-align: right;
+}
 
 .temperature {
   font-size: 45px;
 }
 .celcius {
   font-size: 45px;
-}
-.today-weather {
-  text-align: center;
-  display: block;
-  margin: 0 auto;
 }
 
 .row {
@@ -33,7 +38,11 @@ a {
   max-width: 600px;
   padding: 15px;
   margin: 20px auto;
-  background: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+  background: linear-gradient(
+    69.9deg,
+    rgb(76, 79, 106) 3.2%,
+    rgb(118, 124, 163) 97.6%
+  );
   border-radius: 10px;
 }
 .today-weather .active {
